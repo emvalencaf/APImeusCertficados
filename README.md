@@ -14,10 +14,10 @@ Os registros possuem as seguintes propriedades:
 - [x] cargaHora (number)
 - [x] aluno (string com máximo de 150 caracteres)
 - [x] tag (uma Array)
-- [] completed (boolean) - refere-se a se o curso está completo ou não. Default false
-- [] completedAt (objeto Date) - refere-se a data em que o curso foi completo.
-- [] createdAt (objeto Date) - refere-se a data da criação do registro
-- [] updatedAt (objeto Date) - refere-se a data da atualização do registro
+- [ ] completed (boolean) - refere-se a se o curso está completo ou não. Default false
+- [ ] completedAt (objeto Date) - refere-se a data em que o curso foi completo.
+- [ ] createdAt (objeto Date) - refere-se a data da criação do registro
+- [ ] updatedAt (objeto Date) - refere-se a data da atualização do registro
 
 As propriedades marcadas são obrigatórias, as demais são facultativas.
 
