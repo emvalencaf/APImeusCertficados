@@ -9,7 +9,7 @@ const certificadoScheme = new mongoose.Schema({
     tag: {type:Array, required:true},
     completed: {type: Boolean, default: false},
     completedAt: {type: Date, required: false},
-    createdAt: {type: Date, default: Date.now},
+    createdAt: {type: Date, default: Date.now()},
     updatedAt: {type: Date, required: false}
 
 })
