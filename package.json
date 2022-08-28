@@ -1,0 +1,21 @@
+{
+  "name": "apimeuscertficados",
+  "version": "1.0.0",
+  "description": "É uma API para uso próprio para guardar certificados de conclusão de cursos. A ideia do projeto é ser usado no portfólio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon -r dotenv/config server.js"
+  },
+  "keywords": [],
+  "author": "Edson Mota Valença Filho",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
