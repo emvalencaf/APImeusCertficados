@@ -6,6 +6,8 @@ const controller = require('../controllers/certificados.controller.js')
 
 router.get('/', controller.get)
 
+router.get('/tag/:tag', controller.getByTag)
+
 router.post('/', controller.post)
 
 router.route('/:id')

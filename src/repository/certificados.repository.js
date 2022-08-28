@@ -9,6 +9,10 @@ exports.get = (id) =>{
     return Certificado.find({})
 }
 
+exports.getByTag = (tag) =>{
+    return Certificado.find({tag:tag})
+}
+
 exports.post = (data) => {
 
     const newData = {...data}
@@ -37,7 +41,7 @@ exports.patch = (data, id) => {
         if(typeof certificadoUpdated[prop] === "undefined") delete certificadoUpdated[prop]
 
     }
-    
+
     return Certificado.findOneAndUpdate({_id: id}, certificadoUpdated, {new:true})
 }
 

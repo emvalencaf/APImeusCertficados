@@ -44,6 +44,24 @@ exports.post = async (req, res) =>{
 
 }
 
+exports.getByTag = async (req, res) => {
+
+    try{
+
+        const data = await repository.getByTag(req.params.tag)
+
+        if(!data) res.status(404).end()
+
+        return res.status(200).send(data)
+
+    } catch(e){
+
+        res.status(500).send({mesage:"error 500", err:e})
+
+    }
+
+}
+
 exports.getById = async (req, res) =>{
 
     try{
