@@ -8,16 +8,16 @@ O projeto foi desenvolvido em NodeJS usando o ExpressJS, MongoDB e o Mongoose, p
 
 Os registros possuem as seguintes propriedades:
 
-- [x] - titulo (string com máximo de 350 caracteres)
-- [x] - professor (string com máximo de 150 caracteres)
-- [x] - instituicao (string com máximo de 150 caracteres)
-- [x] - cargaHora (number)
-- [x] - aluno (string com máximo de 150 caracteres)
-- [x] - tag (uma Array)
-- [] - completed (boolean) - refere-se a se o curso está completo ou não. Default false
-- [] - completedAt (objeto Date) - refere-se a data em que o curso foi completo.
-- [] - createdAt (objeto Date) - refere-se a data da criação do registro
-- [] - updatedAt (objeto Date) - refere-se a data da atualização do registro
+- [x] titulo (string com máximo de 350 caracteres)
+- [x] professor (string com máximo de 150 caracteres)
+- [x] instituicao (string com máximo de 150 caracteres)
+- [x] cargaHora (number)
+- [x] aluno (string com máximo de 150 caracteres)
+- [x] tag (uma Array)
+- [] completed (boolean) - refere-se a se o curso está completo ou não. Default false
+- [] completedAt (objeto Date) - refere-se a data em que o curso foi completo.
+- [] createdAt (objeto Date) - refere-se a data da criação do registro
+- [] updatedAt (objeto Date) - refere-se a data da atualização do registro
 
 As propriedades marcadas são obrigatórias, as demais são facultativas.
 
