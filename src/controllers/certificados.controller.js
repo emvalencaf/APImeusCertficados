@@ -14,7 +14,7 @@ exports.get = async (req, res) => {
     }
 
 }
-/*
+
 exports.post = async (req, res) =>{
 
     const {titulo, professor, instituicao, cargaHora, aluno, tag, completed, completedAt} = req.body
@@ -43,7 +43,7 @@ exports.post = async (req, res) =>{
     }
 
 }
-*/
+
 exports.getByTag = async (req, res) => {
 
     try{
@@ -79,7 +79,7 @@ exports.getById = async (req, res) =>{
     }
 
 }
-/*
+
 exports.put = async (req, res) => {
 
     const { titulo, professor, aluno, tag, cargaHora, completed, completedAt } = req.body
@@ -153,4 +153,3 @@ exports.delete = async (req, res) => {
     }
 
 }
-*/
