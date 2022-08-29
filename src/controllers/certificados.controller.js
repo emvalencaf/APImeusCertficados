@@ -17,7 +17,7 @@ exports.get = async (req, res) => {
 
 exports.post = async (req, res) =>{
 
-    const {titulo, professor, instituicao, cargaHora, aluno, tag, completedAt} = req.body
+    const {titulo, professor, instituicao, cargaHora, aluno, tag, completed, completedAt} = req.body
 
     if(!titulo || !professor || !instituicao || !cargaHora || !aluno || !tag) return res.status(400).send({message:"error 400", err: "Requisiçõa não formatada corretamente"})
 
