@@ -12,7 +12,7 @@ exports.get = (id) =>{
 exports.getByTag = (tag) =>{
     return Certificado.find({tag:tag})
 }
-
+/*
 exports.post = (data) => {
 
     const newData = {...data}
@@ -50,3 +50,4 @@ exports.delete = (id) => {
     return Certificado.findByIdAndRemove({_id:id})
 
 }
+*/
